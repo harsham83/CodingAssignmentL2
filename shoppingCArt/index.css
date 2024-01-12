@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+button.product-card {
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 14px;
+}
+
+button:hover {
+    background-color: #6495ED;
+    cursor: pointer; 
+    border-radius: 3px;
+}
+
+#cartCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cart-item-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#cartList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#averagePrice, #totalPrice {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button {
+    background-color: lightsalmon;
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #008CBA;
+}
+
+#cartEmptyMessage{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+span{
+    color: green;
+}
+
+#clearFilterBtn{
+    background-color: lightblue;
+    padding: 8px 12px;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+#filterContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}

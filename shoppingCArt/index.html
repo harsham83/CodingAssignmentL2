@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Shop</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Products</h1>
+    <div>
+        <div id="productList"></div>
+    </div>
+    <h1>Let's Buy All !!!</h1>
+    <div id="filterContainer">
+        <input type="search" id="filterInput" placeholder="Filter...">
+        <div>
+            <button id="clearFilterBtn" onclick="clearCart()">Clear</button>
+            <select id="filterDropdown">
+                <option value="Sort">Sort By</option>
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </div>
+    </div>
+    <div id="cartCard">
+        <div id="cartList">
+            <p id="cartEmptyMessage">Cart is empty<span> Add few Item's</span></p>
+        </div>
+        <h1>Cart Summary</h1>
+        <p>Average Price: $<span id="averagePrice">0.00</span></p>
+        <p>Total Price: $<span id="totalPrice">0.00</span></p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
