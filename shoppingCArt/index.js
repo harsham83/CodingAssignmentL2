@@ -148,3 +148,16 @@ function clearCart() {
     updateCartUI();
     console.log(cart);
 }
+
+document.getElementById('filterDropdown').addEventListener('change', sortCart);
+function sortCart() {
+    const sortBy = document.getElementById('filterDropdown').value;
+
+    if (sortBy === 'name') {
+        cart.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortBy === 'price') {
+        cart.sort((a, b) => a.price - b.price);
+    }
+
+    updateCartUI();
+}
