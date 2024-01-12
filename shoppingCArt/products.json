@@ -28,28 +28,28 @@
       "quantity": 60
     },
     {
-        "id": 1,
+        "id": 5,
         "name": "Product A",
         "image": "../Images/Products5.png",
         "price": 29.99,
         "quantity": 50
       },
       {
-        "id": 2,
+        "id": 6,
         "name": "Product B",
         "image": "../Images/Products6.png",
         "price": 19.99,
         "quantity": 75
       },
       {
-        "id": 3,
+        "id": 7,
         "name": "Product C",
         "image": "../Images/Products7.png",
         "price": 39.99,
         "quantity": 30
       },
       {
-        "id": 4,
+        "id": 8,
         "name": "Product D",
         "image": "../Images/Products8.png",
         "price": 49.99,
